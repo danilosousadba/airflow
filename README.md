@@ -14,6 +14,8 @@ git clone https://github.com/danilosousadba/airflow.git
 ```
 ```
 mkdir -p /opt/airflow/dags /opt/airflow/logs /opt/airflow/plugins /opt/airflow/data
+
+chmod -R 777 /opt/airflow
 ```
 ```
 cd airflow
