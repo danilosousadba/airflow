@@ -10,13 +10,13 @@ Docker Composer utilizado para criação do Apache Airflow Localmente para uso d
 
 ## Setup
 ```
-git clone https://github.com/danilosousadba/impacta.git
+git clone https://github.com/danilosousadba/airflow.git
 ```
 ```
 mkdir -p /opt/airflow/dags /opt/airflow/logs /opt/airflow/plugins /opt/airflow/data
 ```
 ```
-cd impacta-dataops-airflow
+cd airflow
 ```
 ```
 docker-compose up -d
